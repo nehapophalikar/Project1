@@ -1,7 +1,7 @@
+#Rules
 
 Technology used- C#
 
-Rules-
 1.Use short datatype for small numbers instead of int to save space.
 
 2.close the database connections to relsease the resources.
