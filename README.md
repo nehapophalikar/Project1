@@ -1,4 +1,5 @@
-# Project1Technology used- C#
+
+Technology used- C#
 
 Rules-
 1.Use short datatype for small numbers instead of int to save space.
