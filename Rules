@@ -12,3 +12,59 @@ Rules-
 9.Use specific error messages in exeception handling.
 10.Always use style sheet to control the look and feel of the pages. Never specify font name and font size in any of the pages.
 11.Do not store large objects in session. Storing large objects in session may consume lot of server memory depending on the number of users.
+
+
+1. Use Proper Naming Conventions
+
+ 
+
+set a proper naming convention for your Java project.
+Pre-decide names for every class, interfaces, methods and variables etc. 
+If other developers are also working with you on the same project, they should also follow it to maintain the uniformity.
+A meaningful naming convention is extremely important as everything, from classes to interfaces are identified from their names in the code.
+
+ 
+
+2.Never leave a Catch Blocks empty
+
+ 
+
+It is a java best practice preferred by elite developers to write a proper and meaningful message in the catch block while exception handling. 
+When the exception is caught by the empty catch block, when the program gets an exception, it does not show anything, making debugging harder and time-consuming.  
+
+ 
+
+3.Float or Double: the right choice?
+
+ 
+
+Most processors take almost same time in processing the operations on Float and double
+but double offers way more precision then Float that is why it is good to use double when precision is important
+otherwise you can go with float as it requires half space than double.
+
+ 
+
+4.Unnecessary Objects Creation
+
+ 
+
+Object Creation is one of the most memory consuming operation 
+that is why the best java practice is to avoid making any unnecessary objects and they should only be created when required.
+
+ 
+
+5.Proper Commenting
+
+ 
+
+As your code will be read by various people with varying knowledge of Java.
+Proper comments should be used to give overviews of your code and provide additional information that cannot be perceived from the code itself.
+
+ 
+
+6.Avoid Redundant Initializations
+
+ 
+
+Although it is very common practice, it is not encouraged to initialize member variables with the values: like 0, false and null.
+These values are already the default initialization values of member variables in Java.
