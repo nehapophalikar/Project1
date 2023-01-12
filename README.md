@@ -1,4 +1,4 @@
-#Rules
+# Rules
 
 Technology used- C#
 
